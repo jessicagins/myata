@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="owl.carousel.min.css">
+	<link rel="stylesheet" href="Bootstrap-Offcanvas/dist/css/bootstrap.offcanvas.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+	</script>
+	<script src="owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $('.owl').owlCarousel({
+		    loop:true,
+			margin:10,
+			nav:true,
+			navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+			 responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:2
+		        },
+		        1000:{
+		            items:4
+		        }
+		    }
+			
+		   
+		})
+		$('.nav-pills a[href="#hit"]').tab('show'),
+		$('.nav-pills a[href="#sale"]').click(function (e) {
+			  e.preventDefault()
+			  $(this).tab('show')
+			})
+					$('.nav-pills a[href="#new"]').click(function (e) {
+			  e.preventDefault()
+			  $(this).tab('show')
+			})
+
+	});
+	</script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a href="#"><img src="images/logo.png" alt="мята" class="col-xs-12 col-sm-6 col-md-4 col-lg-3"></a>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-lg-offset-1">
+				<p class="col-xs-12 col-lg-6"><span class="glyphicon"></span><span>(096)</span> 923-90-99</p>
+				<p class="col-xs-12 col-lg-6"><span class="glyphicon"></span><span>(063)</span> 616-91-66</p>
+				<div class="clearfix"></div>
+				<div class="input-group col-xs-12 row">
+					<input type="search" class="form-control input-sm" placeholder="Формы для кексов">
+				
+					
+		       		<button class="btn input-sm" type="button"><span class="glyphicon"></span></button>
+		      		
+	      		</div>
+	      	</div>
+	      	<div class="col-xs-12 col-md-4 col-lg-3 col-lg-offset-1">
+	      		<a href="#" class="col-md-offset-1"><span class="glyphicon"></span>Вход</a>
+	      		<a href="#" class="col-md-offset-1"><span class="glyphicon"></span>Регистрация</a>
+	      		<ul class="list-unstyled">
+	      			<span class="glyphicon col-xs-2"></span>
+	      			<li class="pull-right col-xs-10 row"><span>Товаров:  </span>25 шт.</li>
+	      			<li class="pull-right col-xs-10 row"><span>На сумму:  </span>3 750 грн.</li>
+	      			<div class="clearfix"></div>
+	      		</ul>
+	      	</div>
+		</div>
+	</header>
+	<div class="navigation">
+
+		<nav class="navbar container">
+			 <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Главная</a><span class="glyphicon hidden-lg"></span></li>
+					<li><a href="#">О нас</a><span class="glyphicon"></span>
+					</li>					
+					<li><a href="#">Доставка</a><span class="glyphicon"></span></li>
+					<li><a href="#">Как сделать заказ</a><span class="glyphicon"></span></li>
+					<li><a href="#">Возврат товара</a><span class="glyphicon"></span></li>
+					<li><a href="#">Сотрудничество</a><span class="glyphicon"></span></li>
+					<li><a href="#">Акции</a><span class="glyphicon"></span></li>
+					<li><a href="#">Новости</a><span class="glyphicon"></span></li>
+					<li><a href="#">Контакты</a><span class="glyphicon"></span></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="slider">
+		<div class="container">
+			<div>
+				<div class="col-xs-12 col-sm-3 ">
+					<ul class="row list-group list-unstyled">
+						<h2><span class="glyphicon"></span>Каталог</h2>
+						<li><a class="list-group-item" href="#">Формы для выпечки</a></li>
+						<li><a class="list-group-item" href="#">Кондитерский инвентарь</a></li>
+						<li><a class="list-group-item" href="#">Кондитерские ингредиенты</a></li>
+						<li><a class="list-group-item" href="#">Оборудование </a></li>
+						<li><a class="list-group-item" href="#">Всё для кухни</a></li>
+						<li><a class="list-group-item" href="#">Фототорт. 
+							Печать на пищевой бумаге</a>
+							<ul class="col-lg-12 hidden-xs list-unstyled list-group">
+								<li><a class="list-group-item" href="#">Индивидуальные картинки</a></li>
+								<li><a class="list-group-item" href="#">Картинки с деньгами</a></li>
+								<li><a class="list-group-item" href="#">Прочие картинки</a></li>
+								<li><a class="list-group-item" href="#">Пищевые картинки из 
+							разных мультиков</a></li>
+								<li><a class="list-group-item" href="#">Индивидуальные картинки</a></li>
+								<li><a class="list-group-item" href="#">Картинки с деньгами</a></li>
+								<li><a class="list-group-item" href="#">Прочие картинки</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class=" col-xs-12 col-sm-9 hidden-xs">
+					<!-- <p class="pull-left visible-xs">
+			            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas">Каталог</button>
+			        </p> -->
+					<div id="carousel-example-generic" class=" carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>
+
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <img src="images/sweet.png" alt="cupcakes">
+					      <div class="carousel-caption">
+					        <p>Только в этом месяце!</p>					
+					        <p>Скидка на формы для кексов 35%!!!</p>   
+					        <a  class="btn" href="#" role="button">Подробнее</a>   
+					        </div>
+					    </div>
+					    <div class="item">
+					      <img src="images/sweet.png" alt="cupcakes">
+					      <div class="carousel-caption">
+					         <p>Только в этом месяце!</p>					
+					        <p>Скидка на формы для кексов 35%!!!</p>   
+					        <a  class="btn" href="#" role="button">Подробнее</a> 
+					      </div>
+					    </div>
+					    <div class="item">
+					      <img src="images/sweet.png" alt="cupcakes">
+					      <div class="carousel-caption">
+					         <p>Только в этом месяце!</p>					
+					        <p>Скидка на формы для кексов 35%!!!</p>   
+					        <a  class="btn" href="#" role="button">Подробнее</a> 
+					      </div>
+					    </div>
+					  </div>
+
+					 
+					</div>
+				</div>	
+				<div class="clearfix"></div>
+			</div>	
+		</div>
+	</div>
+	<div class="pros">
+		<div class="container">
+			<h2>Наши преимущества</h2>
+			<ul class="list-unstyled col-xs-12">
+				<li class="col-lg-3"><span class="glyphicon"></span>Мы следим за качеством наших товаров</li>
+				<li class="col-lg-3"><span class="glyphicon"></span>У нас большой выбор товаров</li>
+				<li class="col-lg-3"><span class="glyphicon"></span>Мы доставим Ваш заказ вовремя</li>
+				<li class="col-lg-3"><span class="glyphicon"></span>У нас постоянные акции 
+				и скидки</li>
+			</ul>
+		</div>
+	</div>
+	<div class="sell container">
+		<ul class="nav nav-pills col-xs-9 text-center">
+		  <li role="presentation" class="col-sm-4 col-xs-12"><a href="#hit" aria-controls="hit" role="tab" data-toggle="tab">Хиты продаж</a></li>
+		  <li role="presentation" class="col-sm-4 col-xs-12"><a href="#sale" aria-controls="sale" role="tab" data-toggle="tab">Акции</a></li>
+		  <li role="presentation" class="col-xs-12 col-sm-4"><a href="#new" aria-controls="new" role="tab" data-toggle="tab">Новинки</a></li>
+		</ul>
+		<div class="tab-content">
+			 <div role="tabpanel" class="tab-pane" id="hit">
+				<div id="owl-carousel" class="owl owl-carousel owl-theme text-center">
+				
+				    <div class="item ">
+				    	<div ><img src="images/l.png" alt="формочки">
+				    		<span>Хит</span>
+				    	<span><figure></figure>В наличии</span></div>
+				    	<p>Набор силиконовых порционных форм Корзиночка-Квадрат, 10 шт.</p>
+				    	<p>55 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a>
+				    </div>
+				    <div class="item"><div><img src="images/fountain.png" alt="Фонтан шоколадный">
+				    	<span>Хит</span>
+				    	<span>
+				    		<figure></figure>
+				    	В наличии
+				    	</span>
+				    	</div>
+				    	<p>Фонтан шоколадный Altezoro KZ-24/3</p>
+				    	<p><s>2 300 грн.</s>    1 800 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a></div>
+				    <div class="item"><div><img src="images/plunger.png" alt="Плунжеры">
+				    	<span>Хит</span>
+				    	<span><figure></figure>В наличии</span></div>
+				    	<p>Плунжеры для мастики Листики с металлическим толкателем</p>
+				    	<p>48 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a></div>
+				    <div class="item"><div><img src="images/holder.png" alt="планка-держатель">
+				    	<span>Хит</span>
+				    	<span class="none"><figure></figure>Нет в наличии</span></div>
+				    	<p>Магнитная планка-держатель для ножей</p>
+				    	<p> <s>165 грн.</s>   140 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a>
+				    </div>	  
+				</div>
+				<a href="#" class="pull-right">Все хиты</a>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="sale">
+				<div id="owl-carousel" class="owl owl-carousel owl-theme text-center">
+				
+				    <div class="item ">
+				    	<div ><img src="images/l.png" alt="формочки">
+				    		<span>Акция</span>
+				    	<span><figure></figure>В наличии</span></div>
+				    	<p>Набор силиконовых порционных форм Корзиночка-Квадрат, 10 шт.</p>
+				    	<p>55 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a>
+				    </div>
+				    <div class="item"><div><img src="images/fountain.png" alt="Фонтан шоколадный">
+				    	<span>Акция</span>
+				    	<span>
+				    		<figure></figure>
+				    	В наличии
+				    	</span>
+				    	</div>
+				    	<p>Фонтан шоколадный Altezoro KZ-24/3</p>
+				    	<p><s>2 300 грн.</s>    1 800 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a></div>
+				    <div class="item"><div><img src="images/plunger.png" alt="Плунжеры">
+				    	<span>Акция</span>
+				    	<span><figure></figure>В наличии</span></div>
+				    	<p>Плунжеры для мастики Листики с металлическим толкателем</p>
+				    	<p>48 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a></div>
+				    <div class="item"><div><img src="images/holder.png" alt="планка-держатель">
+				    	<span>Акция</span>
+				    	<span class="none"><figure></figure>Нет в наличии</span></div>
+				    	<p>Магнитная планка-держатель для ножей</p>
+				    	<p> <s>165 грн.</s>   140 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a>
+				    </div>	  
+				</div>
+				<a href="#" class="pull-right">Все акции</a>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="new">
+				<div id="owl-carousel" class="owl owl-carousel owl-theme text-center">
+				
+				    <div class="item ">
+				    	<div ><img src="images/l.png" alt="формочки">
+				    		<span>New</span>
+				    	<span><figure></figure>В наличии</span></div>
+				    	<p>Набор силиконовых порционных форм Корзиночка-Квадрат, 10 шт.</p>
+				    	<p>55 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a>
+				    </div>
+				    <div class="item"><div><img src="images/fountain.png" alt="Фонтан шоколадный">
+				    	<span>New</span>
+				    	<span>
+				    		<figure></figure>
+				    	В наличии
+				    	</span>
+				    	</div>
+				    	<p>Фонтан шоколадный Altezoro KZ-24/3</p>
+				    	<p><s>2 300 грн.</s>    1 800 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a></div>
+				    <div class="item"><div><img src="images/plunger.png" alt="Плунжеры">
+				    	<span>New</span>
+				    	<span><figure></figure>В наличии</span></div>
+				    	<p>Плунжеры для мастики Листики с металлическим толкателем</p>
+				    	<p>48 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a></div>
+				    <div class="item"><div><img src="images/holder.png" alt="планка-держатель">
+				    	<span>New</span>
+				    	<span class="none"><figure></figure>Нет в наличии</span></div>
+				    	<p>Магнитная планка-держатель для ножей</p>
+				    	<p> <s>165 грн.</s>   140 грн.</p>
+				    	<button class="btn" type="submit">В корзину</button>
+				    	<a class="col-xs-12" href="#">Купить в один клик</a>
+				    </div>	  
+				</div>
+				<a href="#" class="pull-right">Все новинки</a>
+			</div>
+		</div>
+	</div>
+	<div class="info">
+		<div class="container">
+			<h2 class="text-center">Коротко о нас</h2>
+			<img src="images/brush.png" alt="bread" align="left">
+			<p>
+				
+				<span>Кондитерский интернет-магазин (Киев, Львов, Харьков) – место, где можно приобрести все для украшения тортов и десертов. Давно ищете где купить готовую мастику, качественные пищевые красители или упаковку для тортов и кексов? У нас можно купить всё, что необходимо для украшения кондитерских изделий.</span>
+				<span>В нынешнее время спрос на мастичные торты просто огромен. И чтобы кондитерам популяризировать свои шедевры, необходимо постоянно придумывать новые варианты оформления, удивляя своих клиентов.</span>
+				<span>Поэтому в продаже постоянно появляются новые силиконовые молды, плунжеры и вырубки для мастики, фигурные скалки и многое другое.</span>
+				<span>Для вашего удобства мы постарались расширить ассортимент интернет-магазина и выйти за рамки лишь кондитерского дела. Поэтому у нас можно приобрести формы для выпечки, кухонные принадлежности, удобные гаджеты для готовки.</span>
+				<span>Также в ответ на ваши просьбы появилась новостная страничка, где будут публиковаться полезные статьи и обзоры кондитерских инструментов нашего интернет-магазина.  </span>
+				<span>Купить ингредиенты и инструмент в кондитерском интернет-магазине (Житомир,Чернигов,Винница) можно в пару кликов либо в телефонном режиме.</span>
+			</p>
+		</div>
+	</div>
+	<div class="news container">
+		<h2>Новости</h2>
+		<ul class="list-unstyled">
+				<li class="col-lg-3 col-md-4 col-sm-6 col-xs-9">
+					<img src="images/keks.png" alt="кексы">
+					<h4>Как выбрать силиконовую форму</h4>
+					<h5><span class="glyphicon"></span>28.09.2015</h5>
+					<p>Силиконовые формы привлекают нас своим удобством, яркими цветами и огромным ассортиментом фигурок.</p>
+					<a class="pull-right" href="#">Читать далее</a>
+				</li>
+				<li class="col-lg-3 col-md-4 col-xs-6 hidden-xs">
+					<img src="images/cake.png" alt="">
+					<h4>Мехенди-Торт. Украшения кремом под роспись хной</h4>
+					<h5><span class="glyphicon"></span>15.09.2015</h5>
+					<p>Традиционное искусство придает определенную символику и экзотическую красоту в любой свадебный торт.</p>
+					<a href="#" class="pull-right">Читать далее</a>
+				</li>
+				<li class="col-lg-3 col-md-4 hidden-xs hidden-sm">
+					<img src="images/whitecake.png" alt="white cake">
+					<h4>Классический рецепт творожной пасхи</h4>
+					<h5><span class="glyphicon"></span>08.07.2015</h5>
+					<p>Все мы привыкли к тому, что на Пасху пекутся куличи, это стало своего рода национальной традицией.</p>
+					<a href="#" class="pull-right">Читать далее</a>
+				</li>
+				<li class="col-lg-3 hidden-xs hidden-sm hidden-md">
+					<img src="images/cakes.png" alt="cake">
+					<h4>Коврики для мастики. Как пользоваться</h4>
+					<h5><span class="glyphicon"></span>30.05.2015</h5>
+					<p>Силиконовые накладки-коврики для мастики представляют собой новейшую разработку в декорировании тортов.</p>
+					<a href="#" class="pull-right">Читать далее</a>
+				</li>
+				<div class="clearfix"></div>
+		</ul>
+		<a href="#" class="btn pull-right" role="button"></a>
+	</div>
+	<footer>
+		<div class="container">
+			<ul class="col-lg-7 visible-lg-block list-unstyled">
+				<li><a href="#">О нас</a></li>
+				<li><span class="glyphicon"></span><a href="#">Доставка</a></li>
+				<li><span class="glyphicon"></span><a href="#">Карта сайта</a></li>
+				<li><span class="glyphicon"></span><a href="#">Производители</a></li>
+				<li><span class="glyphicon"></span><a href="#">Акции</a></li>
+			</ul>
+			<div class="col-lg-3 col-xs-12 col-lg-push-2 text-center">
+				<a href="#"><span class="glyphicon"></span></a>
+				<a href="#"><span class="glyphicon"></span></a>
+				<a href="#"><span class="glyphicon"></span></a>
+				<a href="#"><span class="glyphicon"></span></a>
+				<a href="#"><span class="glyphicon"></span></a>
+			</div>
+			<ul class="list-unstyled col-lg-2 col-xs-12 col-lg-pull-3 text-center">
+				<li><span class="glyphicon"></span><a href="#"><span>(096)</span> 923-90-99</a></li>
+				<li><span class="glyphicon"></span><a href="#"><span>(063)</span> 616-91-66</a></li>
+				<li><span class="glyphicon"></span><a href="#">info@myata.in.ua</a></li>
+			</ul>
+			
+		</div>
+		<p>Интернет-магазин “Мята” &copy; 2015 г</p>
+	</footer>
+	
+</body>
+</html>
